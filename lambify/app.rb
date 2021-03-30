@@ -1,4 +1,4 @@
-ENV['RAILS_SERVE_STATIC_FILES'] = '1'
+# ENV['RAILS_SERVE_STATIC_FILES'] = '1'
 require_relative 'config/boot'
 require 'dotenv' ; Dotenv.load ".env.#{ENV['RAILS_ENV']}"
 require 'lamby'

@@ -27,8 +27,8 @@ echo "== Environments & Configuration =="
 #   lamby:ssm:dotenv \
 #   LAMBY_SSM_PARAMS_PATH="/{% include "_cctmp/file_name.txt" %}/${RAILS_ENV}/env"
 
-echo "== Asset Hosts & Precompiling =="
-NODE_ENV='production' ./bin/rails assets:precompile
+# echo "== Asset Hosts & Precompiling =="
+# NODE_ENV='production' ./bin/rails assets:precompile
 
 echo "== Cleanup Unused Files & Directories =="
 rm -rf \
